@@ -1,0 +1,6 @@
+<RCC>
+    <qresource lang="English" prefix="/gameideas"/>
+    <qresource prefix="/icons">
+        <file>sources/gameIdeas.jpg</file>
+    </qresource>
+</RCC>

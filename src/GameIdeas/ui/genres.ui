@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Genres</class>
+ <widget class="QDialog" name="Genres">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>986</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Georgia</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Genres</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resources/resources.qrc">
+    <normaloff>:/icons/sources/gameIdeas.jpg</normaloff>:/icons/sources/gameIdeas.jpg</iconset>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedKingdom"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>List of genres</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="searchLineEdit">
+       <property name="placeholderText">
+        <string>Search</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="genresListWidget">
+       <property name="resizeMode">
+        <enum>QListView::Adjust</enum>
+       </property>
+       <item>
+        <property name="text">
+         <string>Action</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Action-Adventure</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Action-RPG</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Adventure</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Air Combat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Arena Brawler</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Arena Combat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Arena Shooter</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Artillery</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Atmospheric</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Beat-'em-Up</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Board Game</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bullet Hell</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Card Game</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Casual</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Character Action</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CMS (Construction and Management Sims)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Collect-a-thon Platform</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Combat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dating Sim</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dungeon Crawler</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Edutainment</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Endless Runner</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Escape the Room</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>FPS (First-Person Shooter)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Grand Strategy</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hack-n-Slash</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Incremental</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Interactive Fiction</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Interactive Movie</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>JRPG</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kart Racing</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kusoge</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Life Sim</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Light Gun</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Matching Puzzle</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Maze</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mech Combat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Metroidvania</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Military Sim</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mini-games</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MMO</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MOBA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Monster Collecting</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Musou</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Open World</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Paddle</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Party</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Physics Puzzle</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Platform</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Puzzle</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Programming</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pro Wrestling</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Racing</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rail Shooter</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Raising Sim</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rhythm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Roguelike</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>RPG</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>RTS (Real-Time Strategy)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Run-n-Gun</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Shoot 'em Up</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Shooting</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sim</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sports</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SRPG</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Stealth</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Strategy</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Survival</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Survival Horror</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TBS (Turn-Based Strategy)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TCG (Trading Card Games)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Time Management</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tower Defense</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TPS (Third-Person Shooter)</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Vehicular Combat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Vehicular Sim</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Visual Novel</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Walking Simulator</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>WRPG</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addSelectedGenrePushButton">
+       <property name="text">
+        <string>Add genre</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="confirmPushButton">
+       <property name="text">
+        <string>Confirm</string>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>My genres</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="myGenresListWidget">
+       <property name="locale">
+        <locale language="English" country="UnitedKingdom"/>
+       </property>
+       <property name="selectionMode">
+        <enum>QAbstractItemView::MultiSelection</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="deleteSelectedPushButton">
+         <property name="text">
+          <string>Delete selected</string>
+         </property>
+         <property name="autoDefault">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLineEdit" name="customGenreLineEdit">
+         <property name="placeholderText">
+          <string>Custom genre</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="addCustomGenrePushButton">
+         <property name="text">
+          <string>Add custom genre</string>
+         </property>
+         <property name="autoDefault">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancelPushButton">
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../resources/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
